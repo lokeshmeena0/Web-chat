@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>We-Chat Real Time Chat APP using NOde and Socket.io</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="chatimg.jpg" alt="">
+      <audio id="notif" src="notification.mp3" muted></audio>
+      <h1>Welcome to WE-Chat App.</h1>
+    </nav>
+    <div class="container">
+      <!-- <div class="message right">
+        Shubahm: Hey! What's up?
+      </div>
+      <div class="message left">
+        Divya: I'm fine. Wbu?
+      </div> -->
+    </div>
+    <div class="send">
+      <form action="#" id="send-container" >
+        <input type="text" name="msgInput" id="messageInput">
+        <button type="submit" class="btn">Send</button>
+      </form>
+
+    </div>
+    <script src="http://localhost:3000/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="jsfiles/client.js" charset="utf-8"></script>
+  </body>
+</html>
